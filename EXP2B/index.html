@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customise your Own Tshirt </title>
+</head>
+
+<body>
+    <h1> CUSTOMISE YOUR OWN TSHIRT</h1>
+    <form type="post">
+        <label for="name"> Enter your Name : - 
+            <input type="text" id="name"> 
+        </label>
+        <br>
+        <label for="Age"> Enter your Age : - 
+            <input type="number" id="Age">
+        </label>
+        <br>
+        <label for="ShippingAddress"> Enter your Shipping Address : - 
+            <textarea id="ShippingAddress"></textarea>
+        </label>
+        <br>
+        <label for="tagline"> Enter Tagline  : - 
+            <input type="text" id="tagline"></textarea>
+        </label>
+        <br>
+        <label for="color"> Choose The Colour : - 
+            <input type="radio" name="color" id="Blue"> Blue
+            <input type="radio" name="color" id="Yellow"> Yellow
+            <input type="radio" name="color" id="Black"> Black
+        </label>
+        <br>
+        <label for="size"> Choose The Size : - 
+            <select name="size" id="size">
+                <option value="Small">S</option>
+                <option value="Medium">M</option>
+                <option value="Large">L</option>
+                <option value="Extra Large">XL</option>
+              </select>
+        </label>
+        <br>
+        <label for="quantity"> Enter quantity:-
+        <input type="number" id="quantity">
+        </label>
+        <br>
+        <label for="deldate"> Enter Date to be Delivered:- </label>
+        <input type="Date" id="deldate">
+        <br>
+        <input type="button" onclick="verifyform()" value="Submit">  
+    </form>
+    <p id="error">Check for Errors</p>
+
+</body>
+</html>
