@@ -47,7 +47,7 @@
         }
 
         form {
-            text-align: center;
+            text-align: left;
         }
 
         h1 {
@@ -73,6 +73,13 @@
         .preview img {
             height: 80%;
             width: 80%;
+        }
+
+        img
+        {
+            height: 250px;
+            width: 250px;
+            float: right;
         }
 
         @media (max-width: 1100px) {
@@ -111,6 +118,7 @@
         </div>
     </header>
     <h1> CUSTOMISE YOUR OWN TSHIRT</h1>
+    <img src="yourtee.jfif">
     <form type="post" id="tshirtmaker">
         <label for="name"> Enter your Name : -
             <input type="text" id="name">
@@ -150,9 +158,8 @@
         <label for="deldate"> Enter Date to be Delivered:- </label>
         <input type="Date" id="deldate">
         <br>
-        <input type="button" onclick="verifyform()" value="Submit">
+        <input type="button" value="Submit">
     </form>
-    <p id="error">Check for Errors</p>
 
 </body>
 
