@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>IP EXP 4 Part 3</title>
+    </head>
+    <body>
+        <script>
+            class Person
+            {
+             constructor(name,rollno)
+             {
+                 this.name=name;
+                 this.rollno=rollno
+             }
+             
+         }
+         class Student extends Person
+         {
+             constructor(name,rollno,percentage)
+             {
+                 super(name,rollno);
+                 this.percentage=percentage;
+             }
+            
+         }
+             const marks=new Student("OmkarChugh",09,95);
+             printfunction=()=> console.log("Student Marks:- ",marks);
+             
+            
+         </script>
+        <p>Press the Key for Output</p>
+        <input type="submit" onclick="printfunction()" value="Submit">
+    </body>
+</html>
